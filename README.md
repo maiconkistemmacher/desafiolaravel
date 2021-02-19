@@ -38,8 +38,8 @@ Devilbox é uma plataforma dockerizada para desenvolvimento em PHP, ele atua sen
 - Permissão na pasta do devilbox
 - Renomear o arquivo **env-example** para **.env**
 - Configuração no arquivo **.env**, alterar/descomentar as linhas:
-
-`			`TIMEZONE=**America/Sao\_Paulo**						HTTPD\_DOCROOT\_DIR=**public**
+TIMEZONE=**America/Sao\_Paulo**						
+HTTPD\_DOCROOT\_DIR=**public**
 
 - Iniciar os containers: **sudo docker-compose up -d php httpd**
 
