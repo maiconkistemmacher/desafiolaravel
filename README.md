@@ -20,7 +20,7 @@ Requisitos: <https://laravel.com/docs/8.x/deployment#server-requirements>
 
 Deve retornar um objeto PDO informando conexão OK:
 
-![](Aspose.Words.b5f0e734-4fb9-4e40-90f7-0bef62bb805d.001.png)
+![](README.png)
 
 
 
