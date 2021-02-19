@@ -6,7 +6,7 @@ Download Composer: <https://getcomposer.org/download/>
 
 - Clone do repositório: <https://github.com/maiconkistemmacher/desafiolaravel.git>
 - Dar permissão na pasta raiz do projeto
-- Rodar o comando: **composer update**
+- Rodar o comando: **`composer update`**
 - Renomear o arquivo **env.example** para **.env**
 - Rodar o comando: **php artisan serve**
 
