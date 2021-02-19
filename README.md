@@ -1,7 +1,7 @@
 ﻿# Executar o projeto **desafiolaravel**
 Para rodar o projeto em ambiente de desenvolvimento local, é necessário ter instalado o PHP,  Composer e algum servidor web. Instalar um pacote completo, como por exemplo XAMP ou WAMP pode ser mais fácil.
 
-Requisitos: <https://laravel.com/docs/8.x/deployment#server-requirements><p>
+Requisitos: <https://laravel.com/docs/8.x/deployment#server-requirements>  
 Download Composer: <https://getcomposer.org/download/>
 
 - Clone do repositório: <https://github.com/maiconkistemmacher/desafiolaravel.git>
