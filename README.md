@@ -27,7 +27,7 @@ Deve retornar um objeto PDO informando conexão OK:
 # Executar o projeto **desafiolaravel** com[ DEVILBOX](http://devilbox.org/)
 Devilbox é uma plataforma dockerizada para desenvolvimento em PHP, ele atua sendo um XAMP, porém fornece algumas ferramentas adicionais, como por exemplo, nginx, bind, redis, memcached, integração automática com os principais bancos de dados, e muito mais. O objetivo principal é facilitar o desenvolvimento local e também o deploy, pois ele permite que o ambiente criado sempre seja o mesmo, em qualquer máquina.
 
-1. **Instalação e Configuração:**	
+1.  **Instalação e Configuração:**	
 - Instalar docker: <https://docs.docker.com/engine/install/>
 - Instalar compose: <https://docs.docker.com/compose/install/>
 - Clone do repositório: <https://github.com/cytopia/devilbox>
@@ -41,7 +41,7 @@ HTTPD\_DOCROOT\_DIR=**public**<p>
 - Iniciar os containers: **sudo docker-compose up -d php httpd**
 
 
-1. **Acessar o container PHP e instalar o Laravel:**
+2.  **Acessar o container PHP e instalar o Laravel:**
 
 Rodar o comando: **sudo ./shell.sh**
 
