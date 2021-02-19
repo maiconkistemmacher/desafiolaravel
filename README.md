@@ -3,7 +3,7 @@ Para rodar o projeto em ambiente de desenvolvimento local, é necessário ter in
 
 Requisitos: <https://laravel.com/docs/8.x/deployment#server-requirements>
 
-`	`Download Composer: <https://getcomposer.org/download/>
+Download Composer: <https://getcomposer.org/download/>
 
 - Clone do repositório: <https://github.com/maiconkistemmacher/desafiolaravel.git>
 - Dar permissão na pasta raiz do projeto
