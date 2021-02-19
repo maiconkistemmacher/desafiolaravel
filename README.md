@@ -7,15 +7,15 @@ Download Composer: <https://getcomposer.org/download/>
 - Clone do repositório: <https://github.com/maiconkistemmacher/desafiolaravel.git>
 - Dar permissão na pasta raiz do projeto
 - Rodar o comando: **`composer update`**
-- Renomear o arquivo **env.example** para **.env**
-- Rodar o comando: **php artisan serve**
+- Renomear o arquivo **`env.example`** para **`.env`**
+- Rodar o comando: **`php artisan serve`**
 
 # Instalação e configuração banco de dados **SQLITE**
-- Rodar o comando: **sudo apt-get install sqlite3**
-- Rodar o comando: **sudo apt-get install php-sqlite3**
-- Criar o banco na pasta database: **touch database.sqlite**	
-- Na pasta raiz do projeto: **php artisan tinker**
-        >>> **DB::connection()->getPdo();**
+- Rodar o comando: **`sudo apt-get install sqlite3`**
+- Rodar o comando: **`sudo apt-get install php-sqlite3`**
+- Criar o banco na pasta database: **`touch database.sqlite`**	
+- Na pasta raiz do projeto: **`php artisan tinker`**
+        >>> **`DB::connection()->getPdo();`**
 
 Deve retornar um objeto PDO informando conexão OK:
 
@@ -33,17 +33,17 @@ Devilbox é uma plataforma dockerizada para desenvolvimento em PHP, ele atua sen
 - Clone do repositório: <https://github.com/cytopia/devilbox>
 
 - Permissão na pasta do devilbox
-- Renomear o arquivo **env-example** para **.env**
-- Configuração no arquivo **.env**, alterar/descomentar as linhas:<p>
+- Renomear o arquivo **`env-example`** para **`.env`**
+- Configuração no arquivo **`.env`**, alterar/descomentar as linhas:<p>
 >TIMEZONE=**America/Sao\_Paulo**<p>						
 >HTTPD\_DOCROOT\_DIR=**public**<p>
 
-- Iniciar os containers: **sudo docker-compose up -d php httpd**
+- Iniciar os containers: **`sudo docker-compose up -d php httpd`**
 
 
 2.  **Acessar o container PHP e instalar o Laravel:**
 
-Rodar o comando: **sudo ./shell.sh**
+- Rodar o comando: **`sudo ./shell.sh`**
 
 <https://devilbox.readthedocs.io/en/latest/examples/setup-laravel.html>
 
