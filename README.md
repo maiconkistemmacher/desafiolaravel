@@ -29,10 +29,8 @@ Devilbox é uma plataforma dockerizada para desenvolvimento em PHP, ele atua sen
 
 1. **Instalação e Configuração:**	
 - Instalar docker: <https://docs.docker.com/engine/install/>
-- Instalar compose: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
-- Clone do repositório: 
-
-<https://github.com/cytopia/devilbox>
+- Instalar compose: <https://docs.docker.com/compose/install/>
+- Clone do repositório: <https://github.com/cytopia/devilbox>
 
 - Permissão na pasta do devilbox
 - Renomear o arquivo **env-example** para **.env**
