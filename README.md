@@ -2,8 +2,7 @@
 Para rodar o projeto em ambiente de desenvolvimento local, é necessário ter instalado o PHP,  Composer e algum servidor web. Instalar um pacote completo, como por exemplo XAMP ou WAMP pode ser mais fácil.
 
 Requisitos: <https://laravel.com/docs/8.x/deployment#server-requirements>
-
-`	`Download Composer: <https://getcomposer.org/download/>
+Download Composer: <https://getcomposer.org/download/>
 
 - Clone do repositório: <https://github.com/maiconkistemmacher/desafiolaravel.git>
 - Dar permissão na pasta raiz do projeto
@@ -37,9 +36,9 @@ Devilbox é uma plataforma dockerizada para desenvolvimento em PHP, ele atua sen
 
 - Permissão na pasta do devilbox
 - Renomear o arquivo **env-example** para **.env**
-- Configuração no arquivo **.env**, alterar/descomentar as linhas:
-
-`			`TIMEZONE=**America/Sao\_Paulo**						HTTPD\_DOCROOT\_DIR=**public**
+- Configuração no arquivo **.env**, alterar/descomentar as linhas:<p>
+TIMEZONE=**America/Sao\_Paulo**<p>						
+HTTPD\_DOCROOT\_DIR=**public**<p>
 
 - Iniciar os containers: **sudo docker-compose up -d php httpd**
 
